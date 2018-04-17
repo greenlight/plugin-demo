@@ -6,7 +6,7 @@
 
 in your `greenlight.yml` file include:
 
-```js
+```yaml
 plugins:
   redlight/demo: true
 ```
