@@ -1,0 +1,14 @@
+repository:
+  name: plugin-demo
+  description: "🔧 Greenlight Demo Plugin"
+  topics: greenlight, plugin, eslint
+  homepage: https://greenlight.ci
+  private: false
+  has_issues: false
+  has_wiki: false
+  has_downloads: false
+  has_projects: false
+  default_branch: master
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: true

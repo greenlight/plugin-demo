@@ -1,0 +1,16 @@
+if: tag IS blank
+
+language: node_js
+
+node_js: 9
+
+stages:
+  - release
+
+jobs:
+  include:
+    - stage: release
+      install: true
+      script: npx semantic-release
+      if: branch = master
+      if: type IN (push)

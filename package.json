@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "version": "0.0.0-development",
+  "name": "@greenlight/plugin-demo",
+  "description": "Greenlight Demo Plugin",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "homepage": "https://greenlight.ci/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenlight/plugin-demo.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "greenlight",
+    "plugin",
+    "eslint"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=9"
+  },
+  "bugs": {
+    "url": "https://github.com/greenlight/plugin-demo/issues"
+  },
+  "dependencies": {
+    "sentencer": "^0.1.5"
+  }
+}
