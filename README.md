@@ -8,7 +8,7 @@ in your `greenlight.yml` file include:
 
 ```yaml
 plugins:
-  redlight/demo: true
+  audits/demo: true
 ```
 
 ---
